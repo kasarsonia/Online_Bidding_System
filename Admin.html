@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bidding system</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <header>
+            <h1>Online Bidding System</h1>
+            <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="Admin.html">Admin</a></li>
+                <li><a href="Buyer.html">Buyer </a></li>
+                <li><a href="Supplier.html">Supplier</a></li>
+            </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Login Form</h2>
+            <!--Step 1 : Adding HTML-->
+            <form action="/action_page.php">
+
+                <div class="container">
+                    <label><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit"><a href="home.html">Login</a></button>
+                    <input type="checkbox" checked="checked"> Remember me
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+            
+        </main>
+        <footer>
+            <p>&copy; 2023 Online Bidding System</p>
+        </footer>
+    </body>
+</html>
